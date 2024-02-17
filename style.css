@@ -50,7 +50,37 @@ body {
     }
     .botao:last-child { border-radius: 0 40px 0 0;
     }
-    .ativo{
+    .botao.ativo{
         background-color: var(--botao-ativo);
         border-bottom: 4px solid var(--verde);
+        }
+        .contador {
+            text-align: center;
+        }
+        
+        #timer {
+            font-size: 60px;
+        }
+        
+        .tempo {
+            display: inline-block;
+            margin: 0 20px;
+        }
+        
+        .numero {
+            color: white; /* Cor dos números */
+            font-size: 120px; /* Tamanho da fonte para os números */
+            margin: 0 20px; /* Espaçamento à esquerda e à direita dos números */
+        }
+        
+        .palavra {
+            color: green; /* Cor das palavras */
+            font-size: 30px; /* Tamanho da fonte para as palavras */
+        }
+        .contador h2 {
+            color: #6FFF57; /* Cor do título "Tempo Para Completar Objetivo" */
+            margin-bottom: 20px; /* Adiciona espaço abaixo do h2 */
+        }
+        .contador h3 {
+            margin-top: 50px; /* Adiciona espaço acima do h3 */
         }
